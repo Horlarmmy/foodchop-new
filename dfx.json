@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "foodchop_backend": {
+      "main": "src/foodchop_backend/main.mo",
+      "type": "motoko"
+    },
+    "foodchop_frontend": {
+      "dependencies": [
+        "foodchop_backend"
+      ],
+      "source": [
+        "src/foodchop_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "foodchop_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
