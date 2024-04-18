@@ -89,7 +89,7 @@ const Cart = () => {
                       </td>
                       <td className="p-4 block md:table-cell">
                         <img
-                          src={`/images/${item.imageUrl}`}
+                          src={`item.imageUrl}`}
                           alt={item.name}
                           className="w-24 h-24 object-cover ml-[70px] rounded-md"
                         />

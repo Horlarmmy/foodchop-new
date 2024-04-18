@@ -1,3 +1,5 @@
+import { food_1, food_2, food_3, food_4, food_5, food_6, food_7, food_8, food_9, food_10, food_11, food_12, food_13 } from '../src/assets/images'
+
 export const foodData = [
   {
     categoryName: "Swallow",
@@ -5,28 +7,28 @@ export const foodData = [
       {
         id: 1,
         name: "Amala & Ewedu",
-        imageUrl: "food-1.png",
+        imageUrl: food_1,
         price: 4,
         description: "Amala, Buka stew and Goat meat with Ewedu",
       },
       {
         id:2,
         name: "Tuwo",
-        imageUrl: "food-2.png", 
+        imageUrl: food_2, 
         price: 4,
         description: "Tuwo Shinkafa and Miyan Taushe with Assorted Meat",
       },
       {
         id:12,
         name: "Pounded Yam & Egusi",
-        imageUrl: "food-12.jpg", 
+        imageUrl: food_12, 
         price: 5,
         description: "Egusi with Pounded yam",
       },
       {
         id:13,
         name: "Eba and seafood obe ila",
-        imageUrl: "food-13.png", 
+        imageUrl: food_13, 
         price: 6,
         description: "Eba with seafood okro soup",
       }
@@ -38,14 +40,14 @@ export const foodData = [
       {
         id:3,
         name: "Jollof Rice",
-        imageUrl: "food-3.png",
+        imageUrl: food_3,
         price: 5,
         description: "Jollof Rice and vegetables with stewed Goat meat",
       },
       {
         id:4,
         name: "Fried Rice",
-        imageUrl: "food-4.jpg", 
+        imageUrl: food_4, 
         price: 5,
         description: "Fried Rice and Chicken with Plantain",
       },
@@ -57,14 +59,14 @@ export const foodData = [
       {
         id:5,
         name: "Beef Shawarma",
-        imageUrl: "food-5.jpg", 
+        imageUrl: food_5, 
         price: 4,
         description: "Perfectly Grilled and Sweet Beef Shawarma",
       },
       {
         id:6,
         name: "Chicken Shawarma",
-        imageUrl: "food-6.jpg", 
+        imageUrl: food_6, 
         price: 5,
         description: "Middle East Grilled Chicken Shawarma",
       },
@@ -76,14 +78,14 @@ export const foodData = [
       {
         id:7,
         name: "Chicken Pie",
-        imageUrl: "food-7.png",
+        imageUrl: food_7,
         price: 3,
         description: "Perfectly Stuffed Nigerian Chicken Pies",
       },
       {
         id:8,
         name: "Meat Pie",
-        imageUrl: "food-8.png", 
+        imageUrl: food_8, 
         price: 2,
         description: "Perfectly Stuffed Nigerian Meat Pies",
       },
@@ -96,21 +98,21 @@ export const foodData = [
       {
         id:9,
         name: "Pepsi",
-        imageUrl: "food-9.png",
+        imageUrl: food_9,
         price: 1,
         description: "Pepsi Pet 50cl",
       },
       {
         id:10,
         name: "Coca Cola",
-        imageUrl: "food-10.png", 
+        imageUrl: food_10, 
         price: 1,
         description: "Coca Cola Pet 50cl",
       },
       {
         id:11,
         name: "water",
-        imageUrl: "food-11.png", 
+        imageUrl: food_11, 
         price: 1,
         description: "Water Aquafina 75cl Bottle",
       },

@@ -314,7 +314,7 @@ const CheckoutPage = () => {
             >
               <div className="flex items-center">
                 <img
-                  src={`/images/${item.imageUrl}`}
+                  src={`${item.imageUrl}`}
                   alt={item.name}
                   className="h-12 w-12 object-cover mr-4"
                 />

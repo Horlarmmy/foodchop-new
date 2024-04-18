@@ -76,7 +76,7 @@ const ItemModal = ({ item, onClose, userId }) => {
               </h3>
               <div className="mt-2">
                 <img
-                  src={`/images/${item.imageUrl}`}
+                  src={`${item.imageUrl}`}
                   alt={item.name}
                   className="w-full h-64 object-cover rounded-md"
                 />

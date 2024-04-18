@@ -112,7 +112,7 @@ const Food = () => {
                   className="border-primary text-left border-2 rounded-lg p-5 hover:bg-secondary text-primary hover:text-white-200 "
                 >
                   <img
-                    src={`/images/${item.imageUrl}`}
+                    src={`${item.imageUrl}`}
                     alt={item.name}
                     className="w-full h-40 object-cover rounded-md"
                     onClick={() => handleItemClick(item)}
